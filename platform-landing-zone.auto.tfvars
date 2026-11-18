@@ -242,7 +242,7 @@ management_group_settings = {
         }
         Deploy-MCSB2-Monitoring = {
           parameters= {
-            effect = jsonencode({value="Audit"})
+            effect = "{\"value\":\"Audit\"}"
             }
         }
         Audit-ZoneResiliency = {
